@@ -41,7 +41,7 @@ def new_topic(request):
         # creates a blank form that the user can fill out.
         form = TopicForm()
     else:
-        # POST data submitted; process data.
+        # POST data submitted; process data....
         # We make an instance of TopicForm and pass it the data entered by the user,
         # stored in the request.POST.
         form = TopicForm(data=request.POST)
